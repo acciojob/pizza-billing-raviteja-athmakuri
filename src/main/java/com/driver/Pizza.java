@@ -50,7 +50,7 @@ public class Pizza {
         // your code goes here
         if(!isTakeAway){
             this.price+=20;
-            isTakeAway=true;
+            this.isTakeAway=true;
         }
     }
 
